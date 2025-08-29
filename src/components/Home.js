@@ -2,7 +2,6 @@ import React from 'react'
 import homeStyle from './Home.module.css'
 const Home = () => {
   const person = {
-    intro: "Hi, I'm",
     name: "IRFAN KHAN",
     profession: "Frontend Developer",
     about: "I am a passionate Frontend Developer. I love building modern, responsive, and user-friendly websites using HTML, CSS, JavaScript, and React. My goal is to become a Full Stack Developer and create web applications that make life easier for people."
