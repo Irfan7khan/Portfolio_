@@ -1,0 +1,34 @@
+.homeDiv{
+    width: 100%;
+    padding: 4rem 5rem;
+    border: 2px solid red;
+background: linear-gradient(to bottom, #000428, #004e92);
+    color: #00e0ff;
+}
+.myInfo{
+
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.myInfo>span>strong{
+    font-size: 3rem;
+    
+}
+.myInfo>span{
+    font-size: 2rem;
+}
+.homeBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.homeBtn>button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
