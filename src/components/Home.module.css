@@ -1,4 +1,8 @@
 .homeDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+height: 100vh;
     width: 100%;
     padding: 4rem 5rem;
     border: 2px solid red;
@@ -6,12 +10,22 @@ background: linear-gradient(to bottom, #000428, #004e92);
     color: #00e0ff;
 }
 .myInfo{
+/* border: 2px solid black; */
+display: flex;
+align-items: self-start;
+justify-content: center;
+flex-direction: column;
+gap: 0.5rem;
+}
+.personImg{
+    height: 75vh;
+    width: 35rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.homeImg{
+    /* border: 2px solid black; */
 
-    display: flex;
-    align-items: self-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 0.5rem;
 }
 .myInfo>span>strong{
     font-size: 3rem;
@@ -30,5 +44,20 @@ background: linear-gradient(to bottom, #000428, #004e92);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 1rem;
+    padding: 5% 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+.homeBtn>a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.5% 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
 }

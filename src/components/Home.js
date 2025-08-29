@@ -1,5 +1,6 @@
 import React from 'react'
 import homeStyle from './Home.module.css'
+import homeImg from '../Images/9561388-Photoroom.png'
 const Home = () => {
   const person = {
     name: "IRFAN KHAN",
@@ -16,10 +17,14 @@ const Home = () => {
           <span> {person.profession} </span>
           <p> {person.about} </p>
           <div className={homeStyle.homeBtn}>
-            <button>Resume</button>
+            <a href="/Irfan_khan.pdf" download>Resume</a>
             <button>My Work</button>
           </div>
-</div>
+        </div >
+        <div className={homeStyle.homeImg}>
+
+        <img className={homeStyle.personImg} src={homeImg} alt="" />
+        </div>
       </div>
     </div>
   )
